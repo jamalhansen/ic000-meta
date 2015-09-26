@@ -27,12 +27,12 @@ def is_prime(number):
 # Find all prime numbers up to the upper limit and add them to a list
 for x in range(upper, 3, -1):
     # first check to see if it is a factor
-    print "Checking %d" % x
+    print("Checking {0}".format(x))
 
     if high_range % x == 0:
         # now check to see if it is prime
         if is_prime(x):
-            print x
+            print(x)
             break
 
 
